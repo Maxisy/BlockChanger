@@ -1,0 +1,13 @@
+name: BlockChanger
+version: 1.0
+main: me.Maxisy.BlockChanger.BlockChangerPlugin
+commands:
+  startblockchange:
+    description: "Starts blocks changing"
+    usage: /startblockchange
+  stopblockchange:
+    description: "Stops blocks changing"
+    usage: /stopblockchange
+  blockchanger:
+    description: "Shows info"
+    usage: /blockchanger [info]
