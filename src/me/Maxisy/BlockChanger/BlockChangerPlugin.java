@@ -59,7 +59,7 @@ public class BlockChangerPlugin extends JavaPlugin {
                 sender.sendMessage(prefixTrue + "Commands: \n" +
                         prefixTrue + "/startblockchange: starts blocks changing\n" +
                         prefixTrue + "/stopblockchange: stops blocks changing\n" +
-                        prefixTrue + "/blockchanger [info]: shows info");
+                        prefixTrue + "/blockchanger [info | reload]: shows info or reloads config");
                 return true;
             } else if (args[0].equalsIgnoreCase("reload")) {
                 loadConfig(this);
