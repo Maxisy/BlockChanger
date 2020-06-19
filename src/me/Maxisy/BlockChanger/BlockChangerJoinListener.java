@@ -1,6 +1,5 @@
 package me.Maxisy.BlockChanger;
 
-import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -15,7 +14,7 @@ public class BlockChangerJoinListener implements Listener {
 
     FileConfiguration config = BlockChangerPlugin.plugin.getConfig();
 
-    private final String prefix = ChatColor.AQUA + "[" + config.getString("prefix") + "]" + ChatColor.GREEN + " ";
+    private String prefix = BlockChangerPlugin.prefixTrue;
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent evt) {
