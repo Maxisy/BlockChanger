@@ -9,5 +9,5 @@ commands:
     description: "Stops blocks changing"
     usage: /stopblockchange
   blockchanger:
-    description: "Shows info"
-    usage: /blockchanger [info]
+    description: "Shows info or reloads config"
+    usage: /blockchanger [info | reload]
